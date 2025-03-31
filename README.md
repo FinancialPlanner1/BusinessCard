@@ -125,19 +125,6 @@
             <p>Business Restructuring & Planning</p>
         </div>
 
-        <!-- Moved What We Offer Section below Why Me Section -->
-        <div class="section">
-            <h2>What We Offer</h2>
-            <p><strong>Loans</strong></p>
-            <p>Small business loans: R100k - R500k</p>
-            <p>Opportunity Bridge loan: R100k - R5 million</p>
-            <p>Large Business loans: R100k to R5 million</p>
-
-            <p><strong>StepChain</strong></p>
-            <p>Monetize your steps. Get paid for walking and playing brain games.</p>
-            <p>Improve your mental and physical health.</p>
-        </div>
-
         <div class="linkedin">
             <h2>Connect with Me</h2>
             <p><a href="https://www.linkedin.com/in/preggie-govender-mr-g-30a97040/" target="_blank" class="button">Connect on LinkedIn</a></p>
