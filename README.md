@@ -79,7 +79,7 @@
         button:hover {
             background: #00407a;
         }
-        
+
         /* Slow motion floating animation */
         @keyframes slowMotion {
             0% { transform: translateY(0); }
@@ -95,9 +95,14 @@
             border-radius: 5px;
             margin-top: 30px;
             text-align: center;
-            transition: all 0.5s ease-in-out;
         }
         
+        .site-map h2 {
+            margin-bottom: 15px;
+            font-size: 22px;
+            text-decoration: underline;
+        }
+
         .site-map a {
             color: white;
             text-decoration: none;
@@ -105,6 +110,7 @@
             display: block;
             margin: 5px 0;
         }
+
         .site-map a:hover {
             text-decoration: underline;
         }
@@ -112,22 +118,22 @@
 </head>
 <body>
     <div class="container">
-        <h1>Preggie Govender</h1>
+        <h1 id="home">Preggie Govender</h1>
         <h2>Chief Inspiration Officer</h2>
         <hr>
 
-        <div class="contact-info">
+        <div class="contact-info" id="contact">
             <p><strong>Contact Me</strong></p>
             <p>Email: <a href="mailto:preggie@preggiegovender.com">preggie@preggiegovender.com</a></p>
             <p>Cell: <a href="tel:+27825511433">082 551 1433</a></p>
         </div>
 
-        <div class="section">
+        <div class="section" id="services">
             <h2>What we do</h2>
             <p>If your business is ready to grow, it’s time to forecast. We carefully map out your goals, growth engines and targets. We give you access to affordable business funding which empower business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
         </div>
 
-        <div class="section">
+        <div class="section" id="about">
             <h2>What I Do</h2>
             <ul>
                 <li>Sales/ Skills Coach</li>
@@ -139,7 +145,7 @@
             </ul>
         </div>
 
-        <div class="section meeting-form">
+        <div class="section meeting-form" id="book-meeting">
             <h2>Book a Meeting</h2>
             <form action="mailto:preggie@preggiegovender.com" method="post" enctype="text/plain">
                 <label for="name">Name:</label>
@@ -168,10 +174,10 @@
 
         <div class="site-map">
             <h2>Site Map</h2>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
             <a href="#contact">Contact</a>
-            <a href="#services">Services</a>
-            <a href="#about">About Me</a>
+            <a href="#services">What We Do</a>
+            <a href="#about">What I Do</a>
             <a href="#book-meeting">Book a Meeting</a>
             <footer>
                 <p>&copy; 2025 Preggie Govender. All rights reserved.</p>
