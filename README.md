@@ -87,6 +87,22 @@
         }
         .site-map {
             animation: slowMotion 4s ease-in-out infinite;
+            background: #005B9F;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .site-map a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin: 5px 0;
+        }
+        .site-map a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -147,6 +163,12 @@
         </div>
 
         <div class="site-map">
+            <h2>Site Map</h2>
+            <a href="#">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#services">Services</a>
+            <a href="#about">About Me</a>
+            <a href="#book-meeting">Book a Meeting</a>
             <footer>
                 <p>&copy; 2025 Preggie Govender. All rights reserved.</p>
                 <p>Disclaimer: This website is for informational purposes only and does not constitute professional financial or real estate advice.</p>
