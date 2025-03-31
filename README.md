@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,9 +14,9 @@
         .container {
             width: 90%;
             max-width: 600px;
-            margin: 50px auto;
+            margin: 70px auto;
             background: #fff;
-            padding: 20px;
+            padding: 50px;
             box-shadow: 0px 0px 10px #aaa;
             border-radius: 8px;
             text-align: center;
@@ -104,7 +103,7 @@
         </div>
 
         <div class="section">
-            <h2>Why Me</h2>
+            <h2>Why Us</h2>
             <p>If your business is ready to grow, it’s time to forecast. Carefully map out your goals, growth engines, and targets. Access to affordable business funding empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
         </div>
 
