@@ -27,9 +27,9 @@
         .contact-info {
             background: #005B9F;
             color: white;
-            padding: 15px;
+            padding: 90px;
             border-radius: 5px;
-            margin-bottom: 20px;
+            margin-bottom: 60px;
         }
         .contact-info a {
             color: white;
