@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -111,6 +110,36 @@
             <h2>StepChain</h2>
             <p>Monetize your steps. Get paid for walking and playing brain games.</p>
             <p>Improve your mental and physical health.</p>
+        </div>
+
+        <!-- New What We Offer Section -->
+        <div class="section">
+            <h2>What We Offer</h2>
+            <p><strong>Loans</strong></p>
+            <p>Small business loans: R100k - R500k</p>
+            <p>Opportunity Bridge loan: R100k - R5 million</p>
+            <p>Large Business loans: R100k to R5 million</p>
+
+            <p><strong>StepChain</strong></p>
+            <p>Monetize your steps. Get paid for walking and playing brain games.</p>
+            <p>Improve your mental and physical health.</p>
+        </div>
+
+        <!-- New What I Do Section -->
+        <div class="section">
+            <h2>What I Do</h2>
+            <p>Sales/ Skills Coach</p>
+            <p>Mentorship</p>
+            <p>Motivational Speaker</p>
+            <p>Business Coach</p>
+            <p>Life Coach</p>
+            <p>Business Restructuring & Planning</p>
+        </div>
+
+        <!-- New Why Me Section -->
+        <div class="section">
+            <h2>Why Me</h2>
+            <p>If your business is ready to grow, it’s time to forecast. Carefully map out your goals, growth engines, and targets. Access to affordable business funding empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
         </div>
 
         <div class="linkedin">
