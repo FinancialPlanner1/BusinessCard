@@ -1,12 +1,13 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Business Card</title>
+    <title>Preggie Govender - Digital Business Card</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #1A2732; /* Dark Blue Shade */
+            background-color: #1A2732;
             color: #FFFFFF;
             display: flex;
             justify-content: center;
@@ -16,7 +17,7 @@
             flex-direction: column;
         }
         .card {
-            background: #2C3E50; /* Lighter Blue Shade */
+            background: #2C3E50;
             width: 350px;
             padding: 20px;
             border-radius: 10px;
@@ -32,7 +33,7 @@
             margin: 5px 0;
         }
         .highlight {
-            color: #F4B400; /* Gold Accent */
+            color: #F4B400;
             font-weight: bold;
         }
         .contact {
@@ -64,14 +65,9 @@
         <p class="highlight">CIO (Chief Inspiration Officer)</p>
         <p>"Take responsibility for your life & everything’s possible."</p>
         
-        <div class="about">
-            <h3>About Me</h3>
-            <p>I am a passionate entrepreneur, mentor, and motivational speaker dedicated to helping individuals achieve financial and time freedom.</p>
-        </div>
-
         <div class="contact">
             <p>📞 +27 82 551 1433</p>
-            <p>✉️ preggie@preggiegovender.com</p>
+            <p>✉️ <a href="mailto:preggie@preggiegovender.com" style="color:#F4B400; text-decoration: none;">preggie@preggiegovender.com</a></p>
         </div>
         
         <div class="services">
