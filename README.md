@@ -79,21 +79,25 @@
         button:hover {
             background: #00407a;
         }
-        /* Slow motion animation for site map */
+        
+        /* Slow motion floating animation */
         @keyframes slowMotion {
             0% { transform: translateY(0); }
-            50% { transform: translateY(5px); }
+            50% { transform: translateY(10px); }
             100% { transform: translateY(0); }
         }
+
         .site-map {
-            animation: slowMotion 4s ease-in-out infinite;
+            animation: slowMotion 6s ease-in-out infinite;
             background: #005B9F;
             color: white;
             padding: 20px;
             border-radius: 5px;
             margin-top: 30px;
             text-align: center;
+            transition: all 0.5s ease-in-out;
         }
+        
         .site-map a {
             color: white;
             text-decoration: none;
