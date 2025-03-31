@@ -18,7 +18,7 @@
             background: #fff;
             padding: 20px;
             box-shadow: 0px 0px 10px #aaa;
-            border-radius: 50px;
+            border-radius: 70px;
             text-align: center;
         }
         h1, h2 {
