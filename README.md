@@ -119,11 +119,6 @@
             </ul>
         </div>
 
-        <div class="linkedin">
-            <h2>Connect with Me</h2>
-            <p><a href="https://www.linkedin.com/in/preggie-govender-mr-g-30a97040/" target="_blank" class="button">Connect on LinkedIn</a></p>
-        </div>
-
         <div class="section meeting-form">
             <h2>Book a Meeting</h2>
             <form action="mailto:preggie@preggiegovender.com" method="post" enctype="text/plain">
@@ -144,6 +139,11 @@
 
                 <button type="submit">Send Meeting Request</button>
             </form>
+        </div>
+
+        <div class="linkedin">
+            <h2>Connect with Me</h2>
+            <p><a href="https://www.linkedin.com/in/preggie-govender-mr-g-30a97040/" target="_blank" class="button">Connect on LinkedIn</a></p>
         </div>
 
         <div class="site-map">
