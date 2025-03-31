@@ -82,10 +82,27 @@
         button:hover {
             background: #00407a;
         }
+
+        /* Slow motion effect for site map movement */
+        @keyframes slowMotion {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(10px); }
+            100% { transform: translateY(0); }
+        }
+
+        .site-map {
+            animation: slowMotion 5s ease-in-out infinite;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Moved Why Me Section to the top -->
+        <div class="section">
+            <h2>Why Me</h2>
+            <p>If your business is ready to grow, it’s time to forecast. Carefully map out your goals, growth engines, and targets. Access to affordable business funding empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
+        </div>
+
         <h1>Preggie Govender</h1>
         <h2>Chief Inspiration Officer</h2>
         <hr>
@@ -94,35 +111,6 @@
             <p><strong>Contact Me</strong></p>
             <p>Email: <a href="mailto:preggie@preggiegovender.com">preggie@preggiegovender.com</a></p>
             <p>Cell: <a href="tel:+27825511433">082 551 1433</a></p>
-        </div>
-
-        <div class="section">
-            <h2>Property</h2>
-            <p>Sales Manager | Sales & Rental</p>
-        </div>
-
-        <div class="section">
-            <h2>Loans</h2>
-            <p>Short-term funding and bridging finance</p>
-        </div>
-
-        <div class="section">
-            <h2>StepChain</h2>
-            <p>Monetize your steps. Get paid for walking and playing brain games.</p>
-            <p>Improve your mental and physical health.</p>
-        </div>
-
-        <!-- New What We Offer Section -->
-        <div class="section">
-            <h2>What We Offer</h2>
-            <p><strong>Loans</strong></p>
-            <p>Small business loans: R100k - R500k</p>
-            <p>Opportunity Bridge loan: R100k - R5 million</p>
-            <p>Large Business loans: R100k to R5 million</p>
-
-            <p><strong>StepChain</strong></p>
-            <p>Monetize your steps. Get paid for walking and playing brain games.</p>
-            <p>Improve your mental and physical health.</p>
         </div>
 
         <!-- New What I Do Section -->
@@ -136,10 +124,17 @@
             <p>Business Restructuring & Planning</p>
         </div>
 
-        <!-- New Why Me Section -->
+        <!-- What We Offer Section -->
         <div class="section">
-            <h2>Why Me</h2>
-            <p>If your business is ready to grow, it’s time to forecast. Carefully map out your goals, growth engines, and targets. Access to affordable business funding empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
+            <h2>What We Offer</h2>
+            <p><strong>Loans</strong></p>
+            <p>Small business loans: R100k - R500k</p>
+            <p>Opportunity Bridge loan: R100k - R5 million</p>
+            <p>Large Business loans: R100k to R5 million</p>
+
+            <p><strong>StepChain</strong></p>
+            <p>Monetize your steps. Get paid for walking and playing brain games.</p>
+            <p>Improve your mental and physical health.</p>
         </div>
 
         <div class="linkedin">
@@ -168,11 +163,13 @@
                 <button type="submit">Send Meeting Request</button>
             </form>
         </div>
-    </div>
 
-    <footer>
-        <p>&copy; 2025 Preggie Govender. All rights reserved.</p>
-        <p>Disclaimer: This website is for informational purposes only and does not constitute professional financial or real estate advice.</p>
-    </footer>
+        <div class="site-map">
+            <footer>
+                <p>&copy; 2025 Preggie Govender. All rights reserved.</p>
+                <p>Disclaimer: This website is for informational purposes only and does not constitute professional financial or real estate advice.</p>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
