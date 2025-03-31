@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -124,7 +125,7 @@
             <p>Business Restructuring & Planning</p>
         </div>
 
-        <!-- What We Offer Section -->
+        <!-- Moved What We Offer Section below Why Me Section -->
         <div class="section">
             <h2>What We Offer</h2>
             <p><strong>Loans</strong></p>
