@@ -23,14 +23,14 @@
         h1, h2 {
             color: #005B9F;
         }
-        .contact-info, .services {
+        .contact-info {
             background: #005B9F;
             color: white;
             padding: 15px;
             border-radius: 5px;
             margin-bottom: 20px;
         }
-        .contact-info a, .linkedin a {
+        .contact-info a {
             color: white;
             text-decoration: none;
             font-weight: bold;
@@ -82,14 +82,12 @@
         button:hover {
             background: #00407a;
         }
-
         /* Slow motion effect for site map movement */
         @keyframes slowMotion {
             0% { transform: translateY(0); }
             50% { transform: translateY(10px); }
             100% { transform: translateY(0); }
         }
-
         .site-map {
             animation: slowMotion 5s ease-in-out infinite;
         }
@@ -107,7 +105,7 @@
             <p>Cell: <a href="tel:+27825511433">082 551 1433</a></p>
         </div>
 
-        <!-- Why Me Section Moved Below Contact Info -->
+        <!-- Moved Why Me Section directly below Contact Info -->
         <div class="section">
             <h2>Why Me</h2>
             <p>If your business is ready to grow, it’s time to forecast. Carefully map out your goals, growth engines, and targets. Access to affordable business funding empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
