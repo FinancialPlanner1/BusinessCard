@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -98,11 +97,6 @@
 </head>
 <body>
     <div class="container">
-        <!-- Moved Why Me Section to the top -->
-        <div class="section">
-            <h2>Why Me</h2>
-            <p>If your business is ready to grow, it’s time to forecast. Carefully map out your goals, growth engines, and targets. Access to affordable business funding empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
-        </div>
 
         <h1>Preggie Govender</h1>
         <h2>Chief Inspiration Officer</h2>
@@ -113,7 +107,11 @@
             <p>Email: <a href="mailto:preggie@preggiegovender.com">preggie@preggiegovender.com</a></p>
             <p>Cell: <a href="tel:+27825511433">082 551 1433</a></p>
         </div>
-
+   <!-- Moved Why Me Section to the top -->
+        <div class="section">
+            <h2>Why Me</h2>
+            <p>If your business is ready to grow, it’s time to forecast. Carefully map out your goals, growth engines, and targets. Access to affordable business funding empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
+        </div>
         <!-- New What I Do Section -->
         <div class="section">
             <h2>What I Do</h2>
