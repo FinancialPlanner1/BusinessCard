@@ -12,11 +12,11 @@
             color: #333;
         }
         .container {
-            width: 80%;
-            max-width: 900px;
-            margin: 70px auto;
+            width: 90%;
+            max-width: 950px;
+            margin: 50px auto;
             background: #fff;
-            padding: 20px;
+            padding: 30px;
             box-shadow: 0px 0px 10px #aaa;
             border-radius: 70px;
             text-align: center;
