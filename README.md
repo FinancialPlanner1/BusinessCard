@@ -12,9 +12,9 @@
             color: #333;
         }
         .container {
-            width: 90%;
+            width: 30%;
             max-width: 600px;
-            margin: 90px auto;
+            margin: 50px auto;
             background: #fff;
             padding: 20px;
             box-shadow: 0px 0px 10px #aaa;
