@@ -16,9 +16,9 @@
             max-width: 950px;
             margin: 50px auto;
             background: #fff;
-            padding: 30px;
+            padding: 50px;
             box-shadow: 0px 0px 10px #aaa;
-            border-radius: 70px;
+            border-radius: 7px;
             text-align: center;
         }
         h1, h2 {
