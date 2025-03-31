@@ -14,9 +14,9 @@
         .container {
             width: 90%;
             max-width: 600px;
-            margin: 70px auto;
+            margin: 90px auto;
             background: #fff;
-            padding: 50px;
+            padding: 20px;
             box-shadow: 0px 0px 10px #aaa;
             border-radius: 8px;
             text-align: center;
@@ -27,9 +27,9 @@
         .contact-info {
             background: #005B9F;
             color: white;
-            padding: 90px;
+            padding: 15px;
             border-radius: 5px;
-            margin-bottom: 60px;
+            margin-bottom: 20px;
         }
         .contact-info a {
             color: white;
@@ -103,7 +103,7 @@
         </div>
 
         <div class="section">
-            <h2>Why Us</h2>
+            <h2>What we do</h2>
             <p>If your business is ready to grow, it’s time to forecast. Carefully map out your goals, growth engines, and targets. Access to affordable business funding empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
         </div>
 
