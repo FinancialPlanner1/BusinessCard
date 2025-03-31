@@ -3,83 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preggie Govender - Digital Business Card</title>
+    <title>Preggie Govender - Financial Planner</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #1A2732;
-            color: #FFFFFF;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            background-color: #f4f4f9;
             margin: 0;
-            flex-direction: column;
+            padding: 0;
+            color: #333;
         }
-        .card {
-            background: #2C3E50;
-            width: 350px;
+        .container {
+            width: 90%;
+            margin: 65px auto;
+            background: #fff;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 10px #aaa;
+            border-radius: 8px;
             text-align: center;
         }
-        .card h1 {
-            font-size: 24px;
-            margin-bottom: 5px;
+        h1, h2 {
+            color: #005B9F;
         }
-        .card p {
-            font-size: 14px;
-            margin: 5px 0;
+        .contact-info {
+            background: #005B9F;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
         }
-        .highlight {
-            color: #F4B400;
+        .contact-info a {
+            color: white;
+            text-decoration: none;
             font-weight: bold;
         }
-        .contact {
-            margin-top: 15px;
-            font-size: 14px;
-        }
-        .services {
-            margin-top: 20px;
+        .section {
+            margin-bottom: 20px;
             text-align: left;
         }
-        .services h3 {
-            color: #F4B400;
-            font-size: 16px;
-            border-bottom: 1px solid #F4B400;
-            padding-bottom: 5px;
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #005B9F;
+            color: #fff;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #00407a;
+        }
+        footer {
+            text-align: center;
+            background-color: #f4f4f9;
+            padding: 10px;
+            margin-top: 40px;
+            font-size: 0.9em;
         }
         .disclaimer {
-            margin-top: 20px;
-            font-size: 12px;
-            color: #CCCCCC;
-            text-align: center;
-            width: 80%;
+            color: #777;
         }
     </style>
 </head>
 <body>
-    <div class="card">
+    <div class="container">
         <h1>Preggie Govender</h1>
-        <p class="highlight">CIO (Chief Inspiration Officer)</p>
-        <p>"Take responsibility for your life & everything’s possible."</p>
-        
-        <div class="contact">
-            <p>📞 +27 82 551 1433</p>
-            <p>✉️ <a href="mailto:preggie@preggiegovender.com" style="color:#F4B400; text-decoration: none;">preggie@preggiegovender.com</a></p>
+        <h2>Financial Planner</h2>
+        <hr>
+
+        <!-- Contact Info Section -->
+        <div class="contact-info">
+            <p><strong>Contact Me</strong></p>
+            <p>Email: <a href="mailto:preggie.govender@sanlam.co.za">preggie.govender@sanlam.co.za</a></p>
+            <p>Cell: <a href="tel:+27721234567">+27 72 123 4567</a></p>
         </div>
-        
-        <div class="services">
-            <h3>Services Offered</h3>
-            <p><span class="highlight">Motivational:</span> Sales/Skills, Coaching, Business Restructuring</p>
-            <p><span class="highlight">Financial:</span> Life Assurance, Investments, Retirement & Estate Planning, Loans</p>
-            <p><span class="highlight">Property:</span> Sales & Rentals</p>
-            <p><span class="highlight">StepChain:</span> Monetize your steps, get paid for walking & playing brain games.</p>
+
+        <!-- About Me Section -->
+        <div class="section">
+            <h2>About Me</h2>
+            <p>As a dedicated financial planner, I assist clients in achieving financial security through tailored strategies. My goal is to provide personalized solutions that help clients manage their wealth effectively.</p>
+        </div>
+
+        <!-- Services Offered Section -->
+        <div class="section">
+            <h2>Services Offered</h2>
+            <ul>
+                <li>Investment & Retirement Planning</li>
+                <li>Risk & Estate Planning</li>
+                <li>Corporate Financial Services</li>
+            </ul>
+        </div>
+
+        <!-- Connect with Me Section -->
+        <div class="section">
+            <h2>Connect with Me</h2>
+            <p><a href="#" class="button">Connect on LinkedIn</a></p>
         </div>
     </div>
-    <div class="disclaimer">
-        <p>Disclaimer: The information on this digital business card is for general informational purposes only and should not be construed as financial, investment, or professional advice. Please consult with a qualified advisor before making any decisions.</p>
-    </div>
+
+    <footer>
+        <p>&copy; 2025 Preggie Govender. All rights reserved.</p>
+        <p class="disclaimer">Disclaimer: This website is for informational purposes only and is not intended as professional financial advice. Always consult a qualified financial planner for personalized advice.</p>
+    </footer>
 </body>
 </html>
