@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,7 +14,8 @@
         }
         .container {
             width: 90%;
-            margin: 65px auto;
+            max-width: 600px;
+            margin: 50px auto;
             background: #fff;
             padding: 20px;
             box-shadow: 0px 0px 10px #aaa;
@@ -38,6 +40,9 @@
         .section {
             text-align: left;
             margin-bottom: 20px;
+            padding: 15px;
+            background: #e6f2ff;
+            border-radius: 5px;
         }
         .button {
             display: inline-block;
@@ -46,17 +51,10 @@
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
-            margin-top: 20px;
+            margin-top: 10px;
         }
         .button:hover {
             background-color: #00407a;
-        }
-        footer {
-            text-align: center;
-            background-color: #f4f4f9;
-            padding: 10px;
-            margin-top: 40px;
-            font-size: 0.9em;
         }
         .meeting-form {
             background: #e6f2ff;
@@ -82,14 +80,14 @@
         button:hover {
             background: #00407a;
         }
-        /* Slow motion effect for site map movement */
+        /* Slow motion animation for site map */
         @keyframes slowMotion {
             0% { transform: translateY(0); }
-            50% { transform: translateY(10px); }
+            50% { transform: translateY(5px); }
             100% { transform: translateY(0); }
         }
         .site-map {
-            animation: slowMotion 5s ease-in-out infinite;
+            animation: slowMotion 4s ease-in-out infinite;
         }
     </style>
 </head>
@@ -105,7 +103,6 @@
             <p>Cell: <a href="tel:+27825511433">082 551 1433</a></p>
         </div>
 
-        <!-- Moved Why Me Section directly below Contact Info -->
         <div class="section">
             <h2>Why Me</h2>
             <p>If your business is ready to grow, it’s time to forecast. Carefully map out your goals, growth engines, and targets. Access to affordable business funding empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
@@ -113,12 +110,14 @@
 
         <div class="section">
             <h2>What I Do</h2>
-            <p>Sales/ Skills Coach</p>
-            <p>Mentorship</p>
-            <p>Motivational Speaker</p>
-            <p>Business Coach</p>
-            <p>Life Coach</p>
-            <p>Business Restructuring & Planning</p>
+            <ul>
+                <li>Sales/ Skills Coach</li>
+                <li>Mentorship</li>
+                <li>Motivational Speaker</li>
+                <li>Business Coach</li>
+                <li>Life Coach</li>
+                <li>Business Restructuring & Planning</li>
+            </ul>
         </div>
 
         <div class="linkedin">
