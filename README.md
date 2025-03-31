@@ -12,13 +12,13 @@
             color: #333;
         }
         .container {
-            width: 30%;
-            max-width: 600px;
+            width: 80%;
+            max-width: 900px;
             margin: 50px auto;
             background: #fff;
             padding: 20px;
             box-shadow: 0px 0px 10px #aaa;
-            border-radius: 8px;
+            border-radius: 50px;
             text-align: center;
         }
         h1, h2 {
