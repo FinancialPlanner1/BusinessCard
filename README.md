@@ -104,7 +104,7 @@
 
         <div class="section">
             <h2>What we do</h2>
-            <p>If your business is ready to grow, it’s time to forecast. Carefully map out your goals, growth engines, and targets. Access to affordable business funding empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
+            <p>If your business is ready to grow, it’s time to forecast. We carefully map out your goals, growth engines and targets. We give you access to affordable business funding which empower business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
         </div>
 
         <div class="section">
