@@ -14,7 +14,7 @@
         .container {
             width: 80%;
             max-width: 900px;
-            margin: 50px auto;
+            margin: 70px auto;
             background: #fff;
             padding: 20px;
             box-shadow: 0px 0px 10px #aaa;
