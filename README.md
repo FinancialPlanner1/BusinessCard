@@ -6,10 +6,12 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #e6f2ff;
+            background-color: #f4f4f9;
             margin: 0;
             padding: 0;
             color: #333;
+            scroll-behavior: smooth;
+            transition: transform 1s ease-in-out;
         }
         .container {
             width: 90%;
@@ -40,9 +42,8 @@
             text-align: left;
             margin-bottom: 20px;
             padding: 15px;
-            background: #ffffff;
+            background: #e6f2ff;
             border-radius: 5px;
-            border: 1px solid #005B9F;
         }
         .button {
             display: inline-block;
@@ -57,10 +58,9 @@
             background-color: #00407a;
         }
         .meeting-form {
-            background: #ffffff;
+            background: #e6f2ff;
             padding: 15px;
             border-radius: 5px;
-            border: 1px solid #005B9F;
         }
         input, textarea {
             width: 100%;
@@ -81,41 +81,24 @@
         button:hover {
             background: #00407a;
         }
-
-        /* Slow motion floating animation */
-        @keyframes slowMotion {
-            0% { transform: translateY(0); }
-            50% { transform: translateY(10px); }
-            100% { transform: translateY(0); }
+        
+        /* Smooth scrolling effect */
+        html {
+            scroll-behavior: smooth;
         }
 
-        .site-map {
-            animation: slowMotion 6s ease-in-out infinite;
+        /* Slow motion effect */
+        body::-webkit-scrollbar {
+            width: 10px;
+        }
+        body::-webkit-scrollbar-track {
+            background: #e6f2ff;
+        }
+        body::-webkit-scrollbar-thumb {
             background: #005B9F;
-            color: white;
-            padding: 20px;
             border-radius: 5px;
-            margin-top: 30px;
-            text-align: center;
         }
         
-        .site-map h2 {
-            margin-bottom: 15px;
-            font-size: 22px;
-            text-decoration: underline;
-        }
-
-        .site-map a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-            display: block;
-            margin: 5px 0;
-        }
-
-        .site-map a:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
 <body>
@@ -174,18 +157,10 @@
             <p><a href="https://www.linkedin.com/in/preggie-govender-mr-g-30a97040/" target="_blank" class="button">Connect on LinkedIn</a></p>
         </div>
 
-        <div class="site-map">
-            <h2>Site Map</h2>
-            <a href="#home">Home</a>
-            <a href="#contact">Contact</a>
-            <a href="#services">What We Do</a>
-            <a href="#about">What I Do</a>
-            <a href="#book-meeting">Book a Meeting</a>
-            <footer>
-                <p>&copy; 2025 Preggie Govender. All rights reserved.</p>
-                <p>Disclaimer: This website is for informational purposes only and does not constitute professional financial or real estate advice.</p>
-            </footer>
-        </div>
+        <footer>
+            <p>&copy; 2025 Preggie Govender. All rights reserved.</p>
+            <p>Disclaimer: This website is for informational purposes only and does not constitute professional financial or real estate advice.</p>
+        </footer>
     </div>
 </body>
 </html>
