@@ -23,7 +23,10 @@
             text-align: center;
         }
         h1, h2 {
-            color: #C0C0C0;
+            color: #1E90FF;
+        }
+        p {
+            color: white;
         }
         .contact-info {
             background: #444;
