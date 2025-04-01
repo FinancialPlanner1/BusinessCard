@@ -6,28 +6,27 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            background-color: #2E2E2E;
             margin: 0;
             padding: 0;
-            color: #333;
+            color: #D3D3D3;
             scroll-behavior: smooth;
-            transition: transform 1s ease-in-out;
         }
         .container {
             width: 90%;
             max-width: 950px;
             margin: 50px auto;
-            background: white;
+            background: #3A3A3A;
             padding: 50px;
-            box-shadow: 0px 0px 10px #aaa;
+            box-shadow: 0px 0px 10px #555;
             border-radius: 7px;
             text-align: center;
         }
         h1, h2 {
-            color: #005B9F;
+            color: #C0C0C0;
         }
         .contact-info {
-            background: #005B9F;
+            background: #444;
             color: white;
             padding: 15px;
             border-radius: 5px;
@@ -42,23 +41,23 @@
             text-align: left;
             margin-bottom: 20px;
             padding: 15px;
-            background: #e6f2ff;
+            background: #4A4A4A;
             border-radius: 5px;
         }
         .button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #005B9F;
+            background-color: #666;
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
             margin-top: 10px;
         }
         .button:hover {
-            background-color: #00407a;
+            background-color: #555;
         }
         .meeting-form {
-            background: #e6f2ff;
+            background: #4A4A4A;
             padding: 15px;
             border-radius: 5px;
         }
@@ -66,11 +65,13 @@
             width: 100%;
             padding: 8px;
             margin: 5px 0;
-            border: 1px solid #ccc;
+            border: 1px solid #777;
             border-radius: 4px;
+            background: #555;
+            color: white;
         }
         button {
-            background: #005B9F;
+            background: #666;
             color: white;
             padding: 10px;
             border: none;
@@ -79,28 +80,15 @@
             border-radius: 4px;
         }
         button:hover {
-            background: #00407a;
+            background: #555;
         }
         
         /* Smooth scrolling effect */
         html {
             scroll-behavior: smooth;
         }
-
-        /* Slow motion effect */
-        body::-webkit-scrollbar {
-            width: 10px;
-        }
-        body::-webkit-scrollbar-track {
-            background: #e6f2ff;
-        }
-        body::-webkit-scrollbar-thumb {
-            background: #005B9F;
-            border-radius: 5px;
-        }
-
         .site-map {
-            background: #005B9F;
+            background: #444;
             color: white;
             padding: 20px;
             border-radius: 5px;
@@ -108,13 +96,11 @@
             text-align: center;
             animation: slowMotion 6s ease-in-out infinite;
         }
-
         .site-map h2 {
             margin-bottom: 15px;
             font-size: 22px;
             text-decoration: underline;
         }
-
         .site-map a {
             color: white;
             text-decoration: none;
@@ -122,7 +108,6 @@
             display: block;
             margin: 5px 0;
         }
-
         .site-map a:hover {
             text-decoration: underline;
         }
@@ -142,7 +127,7 @@
 
         <div class="section" id="services">
             <h2>What We Do</h2>
-            <p>If your business is ready to grow, it’s time to forecast. We carefully map out your goals, growth engines, and targets. We give you access to affordable business funding that empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success. Our fair and flexible business funding products are purpose-built to protect your cash flow and keep your growth agenda on track.</p>
+            <p>If your business is ready to grow, it’s time to forecast. We carefully map out your goals, growth engines, and targets. We give you access to affordable business funding that empowers business owners to prioritize sustainable growth, scale without jeopardizing day-to-day operations, and achieve long-term success.</p>
         </div>
 
         <div class="section" id="about">
