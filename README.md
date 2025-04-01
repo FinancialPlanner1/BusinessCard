@@ -98,7 +98,34 @@
             background: #005B9F;
             border-radius: 5px;
         }
-        
+
+        .site-map {
+            background: #005B9F;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            text-align: center;
+            animation: slowMotion 6s ease-in-out infinite;
+        }
+
+        .site-map h2 {
+            margin-bottom: 15px;
+            font-size: 22px;
+            text-decoration: underline;
+        }
+
+        .site-map a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            display: block;
+            margin: 5px 0;
+        }
+
+        .site-map a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -155,6 +182,15 @@
         <div class="linkedin">
             <h2>Connect with Me</h2>
             <p><a href="https://www.linkedin.com/in/preggie-govender-mr-g-30a97040/" target="_blank" class="button">Connect on LinkedIn</a></p>
+        </div>
+
+        <div class="site-map">
+            <h2>Site Map</h2>
+            <a href="#home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#services">What We Do</a>
+            <a href="#about">What I Do</a>
+            <a href="#book-meeting">Book a Meeting</a>
         </div>
 
         <footer>
